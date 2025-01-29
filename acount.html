@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
 
 
@@ -17,7 +18,7 @@
 
 
 <div class="container">
-    <div class="navbar">
+    <div class="navbar" data-aos="fade-down" data-aos-duration="1500">
         <div class="logo">
             <a href="index.html"></a><img src="images/logo.png" width="125px"></a>
         </div>
@@ -40,10 +41,10 @@
 <div class="acount-page">
     <div class="container">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-right" data-aos-duration="1500">
                 <img src="images/image1.png" width="100%">
             </div>
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-left" data-aos-duration="1500">
                 <div class="form-container">
                     <div class="form-btn">
                         <span onclick="login()">Login</span>
@@ -72,9 +73,9 @@
 </div>
 
 <!-- footer -->
-    <div class="footer">
+    <div class="footer" >
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="zoom-in-up" data-aos-duration="2500">
                 <div class="footer-col-1">
                     <h3>Download Our App</h3>
                     <p>Download App For Android And Ios mobile phone.</p>
@@ -155,7 +156,10 @@ function login(){
 
 
 </script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
