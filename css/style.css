@@ -61,7 +61,7 @@ p{
 }
 .btn{
     display: inline-block;
-    background: #ff523b;
+    background: #2973B2;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -69,10 +69,10 @@ p{
     transition:background 0.5s;
 }
 .btn:hover{
-    background: #563434;
+    background: #48A6A7;
 }
 .header{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff,#48A6A7);
 }
 .header .row{
     margin-top:70px;
@@ -90,6 +90,13 @@ p{
 }
 .small-container{
     max-width: 1080px;
+    margin: auto;
+    padding-left:25px;
+    padding-right: 25px;
+}
+
+.small-container1{
+    max-width: 100%;
     margin: auto;
     padding-left:25px;
     padding-right: 25px;
@@ -115,7 +122,7 @@ p{
 
 .title::after{
     content: '';
-    background: #ff523b;
+    background: #48A6A7;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -132,21 +139,22 @@ p{
     font-size: 14px;
 }
 .rating .fa{
-color: #ff523b;
+color: #48A6A7;
 }
 .rating .fa-solid{
-    color: #ff523b;
+    color: #48A6A7;
 }
 .rating .fa-regular{
-    color: #ff523b;
+    color: #48A6A7;
 }
 .col-4:hover{
     transform: translateY(-5px);
 }
 .offer{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff,#48A6A7);
     margin-top:80px;
     padding: 30px 0;
+    width: 100%;
 }
 .col-2 .offer-img{
     padding: 50px;
@@ -178,7 +186,7 @@ small{
 }
 .fa.fa-quote-left{
     font-size: 34px;
-    color:#ff523b;    
+    color:#9ACBD0;    
 }
 .col-3 p{
     font-size: 12px;
@@ -299,7 +307,7 @@ ul{
     margin: 100px auto 50px;
 }
 select{
-    border: 1px solid #ff523b;
+    border: 1px solid #2973B2;
     padding: 5px;
 }
 select:focus{
@@ -310,7 +318,7 @@ select:focus{
 }
 .page-btn span{
     display: inline-block;
-    border: 1px solid #ff523b;
+    border: 1px solid #2973B2;
     margin: 10px;
     width: 40px;
     height: 40px;
@@ -319,7 +327,7 @@ select:focus{
     cursor: pointer;
 }
 .page-btn span:hover{
-    background-color: #ff523b;
+    background-color: #2973B2;
     color: #fff;
 }
 
@@ -351,13 +359,13 @@ select:focus{
     padding-left: 10px;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid #ff523b;
+    border: 1px solid #9ACBD0;
 }
 input:focus{
     outline: none;
 }
 .single-product .fa{
-    color: #ff523b;
+    color: #9ACBD0;
     margin-left: 10px;
 }
 .small-img-row{
@@ -386,7 +394,7 @@ th{
     text-align: left;
     padding: 5px;
     color: #fff;
-    background: #ff523b;
+    background: #9ACBD0;
     font-weight: normal;
 }
 td{
@@ -398,7 +406,7 @@ td input{
     padding: 5px;
 }
 td a{
-    color: #ff523b;
+    color: #9ACBD0;
     font-size: 12px;
 }
 td img{
@@ -411,7 +419,7 @@ td img{
     justify-content: flex-end;
 }
 .total-price table{
-    border-top: 3px solid #ff523b;
+    border-top: 3px solid #9ACBD0;
     width: 100%;
     max-width: 400px;
 }
@@ -424,10 +432,11 @@ th:last-child{
 /* acount page */
 .acount-page{
     padding: 50px 0;
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff,#2973B2);
 }
 .form-container{
-    background: #fff;
+    background: #F2EFE7;
+    border-radius: 10px;
     width: 300px;
     height: 400px;
     position: relative;
@@ -483,7 +492,7 @@ form a{
 #Indicator{
     width: 100px;
     border: none;
-    background: #ff523b;
+    background: #9ACBD0;
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
